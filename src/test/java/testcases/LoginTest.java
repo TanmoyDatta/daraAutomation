@@ -4,6 +4,7 @@ import static org.testng.Assert.assertEquals;
 
 import org.testng.annotations.Test;
 
+import io.qameta.allure.Description;
 import pages.DarazLoginPage;
 import utilities.Dataset;
 import utilities.DriverSetUp;
@@ -11,7 +12,8 @@ import utilities.DriverSetUp;
 public class LoginTest extends DriverSetUp{
 	DarazLoginPage darazLoginPage = new DarazLoginPage();
 	
-	@Test
+	@Test(description = "Test Login with invalid credential !")
+	@Description("Test Login with invalid credentials from Allure")
 	public void testLoginWithInValidCredentials() {
 		getDriver().get(darazLoginPage.LOGIN_PAGE_URL);
 		darazLoginPage.doLogin("0111111111","password");

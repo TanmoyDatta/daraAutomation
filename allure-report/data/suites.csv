@@ -1,0 +1,7 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Thu Feb 16 15:39:42 BDT 2023","Thu Feb 16 15:39:49 BDT 2023","7629","Suite","Test","testcases.LoginTest","testcases.LoginTest","testLogInWithInvalidCredentialsUsingDataprovider","testLogInWithInvalidCredentialsUsingDataprovider",""
+"passed","Thu Feb 16 15:39:54 BDT 2023","Thu Feb 16 15:39:58 BDT 2023","4195","Suite","Test","testcases.LoginTest","testcases.LoginTest","testLoginWithInValidCredentials","Test Login with invalid credential !","Test Login with invalid credentials from Allure"
+"passed","Thu Feb 16 15:39:58 BDT 2023","Thu Feb 16 15:40:02 BDT 2023","3947","Suite","Test","testcases.LoginTest","testcases.LoginTest","testLoginWithValidPhnInValidpasswordCredentials","testLoginWithValidPhnInValidpasswordCredentials",""
+"failed","Thu Feb 16 15:33:42 BDT 2023","Thu Feb 16 15:33:46 BDT 2023","3768","Suite","Test","testcases.LoginTest","testcases.LoginTest","testLogInWithInvalidCredentialsUsingDataprovider","testLogInWithInvalidCredentialsUsingDataprovider",""
+"passed","Thu Feb 16 15:39:27 BDT 2023","Thu Feb 16 15:39:39 BDT 2023","12467","Suite","Test","testcases.HomePageTest","testcases.HomePageTest","HomePageTitle","HomePageTitle",""
+"passed","Thu Feb 16 15:39:49 BDT 2023","Thu Feb 16 15:39:54 BDT 2023","4185","Suite","Test","testcases.LoginTest","testcases.LoginTest","testLogInWithInvalidCredentialsUsingDataprovider","testLogInWithInvalidCredentialsUsingDataprovider",""

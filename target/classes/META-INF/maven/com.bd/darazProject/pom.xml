@@ -29,6 +29,13 @@
 	    <version>7.7.1</version>
 	    <scope>test</scope>
 	</dependency>
+	<!-- https://mvnrepository.com/artifact/io.qameta.allure/allure-testng -->
+	<dependency>
+	    <groupId>io.qameta.allure</groupId>
+	    <artifactId>allure-testng</artifactId>
+	    <version>2.20.0</version>
+	</dependency>
+
   </dependencies>
   <build>
 	  <plugins>
@@ -37,10 +44,12 @@
 			  <artifactId>maven-surefire-plugin</artifactId>
 			  <version>3.0.0-M7</version>
 			  <configuration>
-				  <includes>
-					  <include>testcases.HomePageTest.java</include>
-				  </includes>
-				 
+				  <!--includes>
+					  <include>${testfilename}</include>
+				  </includes-->
+				  <suiteXmlFiles>
+					  <suiteXmlFile>${testxmlfilename}</suiteXmlFile>
+				  </suiteXmlFiles>
 			  </configuration>
 		  </plugin>
 	  </plugins>

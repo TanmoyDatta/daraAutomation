@@ -22,11 +22,11 @@ public class HomePageTest extends DriverSetUp{
 		
 		// get element text
 		System.out.println(darazHomePage.getElementText(darazHomePage.SIGNUP_LOGIN_BUTTON));
-		
+		darazHomePage.takeScreenShot("Home Page");
 		// clickOnMehtod called
 		darazHomePage.clickOnElement(darazHomePage.SIGNUP_LOGIN_BUTTON);
 		
 		darazLoginPage.doLogin("0111111111","password");
-		
+		darazHomePage.takeScreenShot("Failed Login");
 	}
 }

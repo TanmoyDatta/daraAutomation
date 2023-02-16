@@ -2,30 +2,30 @@
 <testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-02-15T17:23:03 BDT" name="Suite" finished-at="2023-02-15T17:23:32 BDT" duration-ms="29012">
+  <suite started-at="2023-02-16T15:39:23 BDT" name="Suite" finished-at="2023-02-16T15:40:02 BDT" duration-ms="39537">
     <groups>
     </groups>
-    <test started-at="2023-02-15T17:23:03 BDT" name="Test" finished-at="2023-02-15T17:23:32 BDT" duration-ms="29012">
+    <test started-at="2023-02-16T15:39:23 BDT" name="Test" finished-at="2023-02-16T15:40:02 BDT" duration-ms="39537">
       <class name="testcases.HomePageTest">
-        <test-method is-config="true" signature="setBrowser()[pri:0, instance:testcases.HomePageTest@3c77d488]" started-at="2023-02-15T17:23:03 BDT" name="setBrowser" finished-at="2023-02-15T17:23:09 BDT" duration-ms="6147" status="PASS">
+        <test-method is-config="true" signature="setBrowser()[pri:0, instance:testcases.HomePageTest@7c8c9a05]" started-at="2023-02-16T15:39:23 BDT" name="setBrowser" finished-at="2023-02-16T15:39:27 BDT" duration-ms="4083" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setBrowser -->
-        <test-method signature="HomePageTitle()[pri:0, instance:testcases.HomePageTest@3c77d488]" started-at="2023-02-15T17:23:09 BDT" name="HomePageTitle" finished-at="2023-02-15T17:23:25 BDT" duration-ms="16393" status="PASS">
+        <test-method signature="HomePageTitle()[pri:0, instance:testcases.HomePageTest@7c8c9a05]" started-at="2023-02-16T15:39:27 BDT" name="HomePageTitle" finished-at="2023-02-16T15:39:39 BDT" duration-ms="12550" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- HomePageTitle -->
-        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:testcases.HomePageTest@3c77d488]" started-at="2023-02-15T17:23:25 BDT" name="quitBrowser" finished-at="2023-02-15T17:23:26 BDT" duration-ms="463" status="PASS">
+        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:testcases.HomePageTest@7c8c9a05]" started-at="2023-02-16T15:39:40 BDT" name="quitBrowser" finished-at="2023-02-16T15:39:40 BDT" duration-ms="397" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quitBrowser -->
       </class> <!-- testcases.HomePageTest -->
       <class name="testcases.LoginTest">
-        <test-method is-config="true" signature="setBrowser()[pri:0, instance:testcases.LoginTest@2e385cce]" started-at="2023-02-15T17:23:03 BDT" name="setBrowser" finished-at="2023-02-15T17:23:07 BDT" duration-ms="3937" status="PASS">
+        <test-method is-config="true" signature="setBrowser()[pri:0, instance:testcases.LoginTest@558bdf1f]" started-at="2023-02-16T15:39:40 BDT" name="setBrowser" finished-at="2023-02-16T15:39:42 BDT" duration-ms="1833" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setBrowser -->
-        <test-method signature="testLogInWithInvalidCredentialsUsingDataprovider(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.LoginTest@2e385cce]" started-at="2023-02-15T17:23:07 BDT" name="testLogInWithInvalidCredentialsUsingDataprovider" data-provider="InvalidCredensial" finished-at="2023-02-15T17:23:18 BDT" duration-ms="11254" status="PASS">
+        <test-method signature="testLogInWithInvalidCredentialsUsingDataprovider(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.LoginTest@558bdf1f]" started-at="2023-02-16T15:39:42 BDT" name="testLogInWithInvalidCredentialsUsingDataprovider" data-provider="InvalidCredensial" finished-at="2023-02-16T15:39:49 BDT" duration-ms="7640" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -46,7 +46,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLogInWithInvalidCredentialsUsingDataprovider -->
-        <test-method signature="testLogInWithInvalidCredentialsUsingDataprovider(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.LoginTest@2e385cce]" started-at="2023-02-15T17:23:18 BDT" name="testLogInWithInvalidCredentialsUsingDataprovider" data-provider="InvalidCredensial" finished-at="2023-02-15T17:23:23 BDT" duration-ms="5138" status="PASS">
+        <test-method signature="testLogInWithInvalidCredentialsUsingDataprovider(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.LoginTest@558bdf1f]" started-at="2023-02-16T15:39:49 BDT" name="testLogInWithInvalidCredentialsUsingDataprovider" data-provider="InvalidCredensial" finished-at="2023-02-16T15:39:54 BDT" duration-ms="4197" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -67,15 +67,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLogInWithInvalidCredentialsUsingDataprovider -->
-        <test-method signature="testLoginWithInValidCredentials()[pri:0, instance:testcases.LoginTest@2e385cce]" started-at="2023-02-15T17:23:23 BDT" name="testLoginWithInValidCredentials" finished-at="2023-02-15T17:23:28 BDT" duration-ms="4438" status="PASS">
+        <test-method signature="testLoginWithInValidCredentials()[pri:0, instance:testcases.LoginTest@558bdf1f]" started-at="2023-02-16T15:39:54 BDT" name="testLoginWithInValidCredentials" description="Test Login with invalid credential !" finished-at="2023-02-16T15:39:58 BDT" duration-ms="4201" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLoginWithInValidCredentials -->
-        <test-method signature="testLoginWithValidPhnInValidpasswordCredentials()[pri:0, instance:testcases.LoginTest@2e385cce]" started-at="2023-02-15T17:23:28 BDT" name="testLoginWithValidPhnInValidpasswordCredentials" finished-at="2023-02-15T17:23:31 BDT" duration-ms="3740" status="PASS">
+        <test-method signature="testLoginWithValidPhnInValidpasswordCredentials()[pri:0, instance:testcases.LoginTest@558bdf1f]" started-at="2023-02-16T15:39:58 BDT" name="testLoginWithValidPhnInValidpasswordCredentials" finished-at="2023-02-16T15:40:02 BDT" duration-ms="3954" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLoginWithValidPhnInValidpasswordCredentials -->
-        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:testcases.LoginTest@2e385cce]" started-at="2023-02-15T17:23:31 BDT" name="quitBrowser" finished-at="2023-02-15T17:23:32 BDT" duration-ms="392" status="PASS">
+        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:testcases.LoginTest@558bdf1f]" started-at="2023-02-16T15:40:02 BDT" name="quitBrowser" finished-at="2023-02-16T15:40:02 BDT" duration-ms="375" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quitBrowser -->

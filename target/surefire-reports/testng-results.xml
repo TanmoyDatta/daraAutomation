@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-02-15T17:26:48 BDT" name="Surefire suite" finished-at="2023-02-15T17:27:06 BDT" duration-ms="18046">
+  <suite started-at="2023-02-15T22:11:38 BDT" name="Surefire suite" finished-at="2023-02-15T22:12:15 BDT" duration-ms="36978">
     <groups>
     </groups>
-    <test started-at="2023-02-15T17:26:48 BDT" name="Surefire test" finished-at="2023-02-15T17:27:06 BDT" duration-ms="18046">
+    <test started-at="2023-02-15T22:11:38 BDT" name="Surefire test" finished-at="2023-02-15T22:12:15 BDT" duration-ms="36978">
       <class name="testcases.HomePageTest">
-        <test-method is-config="true" signature="setBrowser()[pri:0, instance:testcases.HomePageTest@96def03]" started-at="2023-02-15T17:26:48 BDT" name="setBrowser" finished-at="2023-02-15T17:26:52 BDT" duration-ms="3595" status="PASS">
+        <test-method is-config="true" signature="setBrowser()[pri:0, instance:testcases.HomePageTest@96def03]" started-at="2023-02-15T22:11:38 BDT" name="setBrowser" finished-at="2023-02-15T22:11:59 BDT" duration-ms="20465" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setBrowser -->
-        <test-method signature="HomePageTitle()[pri:0, instance:testcases.HomePageTest@96def03]" started-at="2023-02-15T17:26:52 BDT" name="HomePageTitle" finished-at="2023-02-15T17:27:05 BDT" duration-ms="13309" status="PASS">
+        <test-method signature="HomePageTitle()[pri:0, instance:testcases.HomePageTest@96def03]" started-at="2023-02-15T22:11:59 BDT" name="HomePageTitle" finished-at="2023-02-15T22:12:15 BDT" duration-ms="15715" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- HomePageTitle -->
-        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:testcases.HomePageTest@96def03]" started-at="2023-02-15T17:27:05 BDT" name="quitBrowser" finished-at="2023-02-15T17:27:06 BDT" duration-ms="1068" status="PASS">
+        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:testcases.HomePageTest@96def03]" started-at="2023-02-15T22:12:15 BDT" name="quitBrowser" finished-at="2023-02-15T22:12:15 BDT" duration-ms="687" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quitBrowser -->
