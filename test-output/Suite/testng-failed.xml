@@ -5,11 +5,20 @@
     <classes>
       <class name="testcases.LoginTest">
         <methods>
-          <include name="testLogInWithInvalidCredentialsUsingDataprovider" invocation-numbers="1"/>
+          <include name="testLogInWithInvalidCredentialsUsingDataprovider" invocation-numbers="0 1"/>
+          <include name="testLoginWithValidPhnInValidpasswordCredentials"/>
+          <include name="quitBrowser"/>
+          <include name="setBrowser"/>
+          <include name="testLoginWithInValidCredentials"/>
+        </methods>
+      </class> <!-- testcases.LoginTest -->
+      <class name="testcases.HomePageTest">
+        <methods>
+          <include name="HomePageTitle"/>
           <include name="quitBrowser"/>
           <include name="setBrowser"/>
         </methods>
-      </class> <!-- testcases.LoginTest -->
+      </class> <!-- testcases.HomePageTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
